@@ -12,7 +12,7 @@ A Minecraft LabyMod addon that enhances the flying experience with customizable 
 ## Installation
 
 1. Download the latest release from the [Releases](https://github.com/datenflieger/SwiftAddon/releases) page
-2. Place the downloaded `.jar` file in your `LabyMod/addons-1.21.10` folder
+2. Place the downloaded `.jar` file in your Labymod Addons folder
 3. Restart Minecraft
 
 ## Usage
@@ -32,3 +32,8 @@ Access the configuration in-game through the LabyMod settings:
 1. Press `ESC` > `Options...` > `LabyMod Settings` > `Addons`
 2. Find "Swift Addon" and click the settings icon
 3. Toggle features on/off as needed
+
+## Important Notice
+
+**Flight Speed Disclaimer:**  
+The flight speed adjustment feature in this addon may be considered a cheat on some Minecraft servers. While similar functionality exists in other clients, it's your responsibility to ensure that using this feature complies with the rules of the server you're playing on. The developers are not responsible for any consequences resulting from the use of this addon.
