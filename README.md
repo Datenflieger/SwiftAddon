@@ -30,7 +30,7 @@ A Minecraft LabyMod addon that enhances the flying experience with customizable 
 
 Access the configuration in-game through the LabyMod settings:
 1. Press `ESC` > `Options...` > `LabyMod Settings` > `Addons`
-2. Find "Swift Addon" and click the settings icon
+2. Find "Swift Addon"
 3. Toggle features on/off as needed
 
 ## Important Notice
