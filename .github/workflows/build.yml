@@ -31,6 +31,8 @@ jobs:
           key: gradle-wrapper-${{ runner.os }}-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
           restore-keys: |
             gradle-wrapper-${{ runner.os }}-
+      - name: Fix line endings (CRLF → LF)
+        run: sed -i 's/\r$//' gradlew
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
