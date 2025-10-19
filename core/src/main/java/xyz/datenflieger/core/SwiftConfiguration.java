@@ -6,13 +6,27 @@ import net.labymod.api.configuration.loader.annotation.ConfigName;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 
 @ConfigName("settings")
-public class ExampleConfiguration extends AddonConfig {
+public class SwiftConfiguration extends AddonConfig {
 
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
+  @SwitchSetting
+  private final ConfigProperty<Boolean> flySpeedEnabled = new ConfigProperty<>(true);
+
+  @SwitchSetting
+  private final ConfigProperty<Boolean> uuidCommandEnabled = new ConfigProperty<>(true);
+
   @Override
   public ConfigProperty<Boolean> enabled() {
     return this.enabled;
+  }
+
+  public ConfigProperty<Boolean> flySpeedEnabled() {
+    return this.flySpeedEnabled;
+  }
+
+  public ConfigProperty<Boolean> uuidCommandEnabled() {
+    return this.uuidCommandEnabled;
   }
 }

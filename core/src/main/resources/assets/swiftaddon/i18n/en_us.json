@@ -1,0 +1,24 @@
+{
+  "swiftaddon": {
+    "settings": {
+      "name": "Swift Addon",
+      "enabled": {
+        "name": "Enabled",
+        "description": "Enable or disable the entire addon"
+      },
+      "flySpeedEnabled": {
+        "name": "Fly Speed Control",
+        "description": "Enable fly speed control with Ctrl + Mouse Wheel (11 levels: 0 = Normal, 1-10 = Faster)"
+      },
+      "uuidCommandEnabled": {
+        "name": "UUID Command",
+        "description": "Enable /uuid command to lookup player UUIDs"
+      }
+    },
+    "hudWidget": {
+      "flyspeed": {
+        "name": "Fly Speed Indicator"
+      }
+    }
+  }
+}

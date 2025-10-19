@@ -1,0 +1,24 @@
+{
+  "swiftaddon": {
+    "settings": {
+      "name": "Swift Addon",
+      "enabled": {
+        "name": "Aktiviert",
+        "description": "Aktiviere oder deaktiviere das gesamte Addon"
+      },
+      "flySpeedEnabled": {
+        "name": "Fluggeschwindigkeits-Kontrolle",
+        "description": "Aktiviere Fluggeschwindigkeits-Kontrolle mit Strg + Mausrad (11 Stufen: 0 = Normal, 1-10 = Schneller)"
+      },
+      "uuidCommandEnabled": {
+        "name": "UUID Command",
+        "description": "Aktiviere /uuid Command zum Nachschlagen von Spieler-UUIDs"
+      }
+    },
+    "hudWidget": {
+      "flyspeed": {
+        "name": "Fluggeschwindigkeits-Anzeige"
+      }
+    }
+  }
+}

@@ -3,22 +3,14 @@ package xyz.datenflieger.core.listener;
 import net.labymod.api.event.Phase;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.lifecycle.GameTickEvent;
-import xyz.datenflieger.core.ExampleAddon;
+import xyz.datenflieger.core.SwiftAddon;
 
-public class ExampleGameTickListener {
+public class SwiftGameTickListener {
 
-  private final ExampleAddon addon;
+  private final SwiftAddon addon;
 
-  public ExampleGameTickListener(ExampleAddon addon) {
+  public SwiftGameTickListener(SwiftAddon addon) {
     this.addon = addon;
   }
 
-  @Subscribe
-  public void onGameTick(GameTickEvent event) {
-    if (event.phase() != Phase.PRE) {
-      return;
-    }
-
-    this.addon.logger().info(this.addon.configuration().enabled().get() ? "enabled" : "disabled");
-  }
 }
