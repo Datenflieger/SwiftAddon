@@ -9,12 +9,6 @@ A Minecraft LabyMod addon that enhances the flying experience with customizable 
 - **HUD Indicator**: Visual feedback for current flight speed
 - **UUID Lookup**: `/uuid` command to get player UUIDs
 
-## Installation
-
-1. Download the latest release from the [Releases](https://github.com/datenflieger/SwiftAddon/releases) page
-2. Place the downloaded `.jar` file in your Labymod Addons folder
-3. Restart Minecraft
-
 ## Usage
 
 ### Flight Controls
